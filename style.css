@@ -95,10 +95,9 @@ body {
 }
 .card__outer-year H2:nth-child(2) {
   left: none;
-  
+
   right: 9px;
   top: 78px;
-  
 }
 .card__outer-year H2:nth-child(3) {
   top: none;
@@ -168,6 +167,5 @@ body {
 @media (max-width: 375px) {
   .card__outer-year {
     display: none;
-    
   }
 }

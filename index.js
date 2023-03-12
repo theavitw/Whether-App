@@ -6,15 +6,13 @@ const options = {
   },
 };
 const getwheather = (city) => {
-	cityname.innerHTML = city;
+  cityname.innerHTML = city;
   fetch(
     "https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=" + city,
     options
   )
     .then((response) => response.json())
     .then((response) => {
-      
-
       temp.innerHTML = response.temp;
       feels_like.innerHTML = response.feels_like;
 
@@ -31,7 +29,7 @@ const getwheather = (city) => {
   );
 };
 Submit.addEventListener("click", (e) => {
-	e.preventDefault();
-	getwheather(city.value);
+  e.preventDefault();
+  getwheather(city.value);
 });
-getwheather("Ahmedabad")
+getwheather("Ahmedabad");
