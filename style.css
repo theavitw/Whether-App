@@ -1,13 +1,11 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   background-color: #fee1e1;
 }
 
 .wrapper {
-  /* margin: -171px 0 0 -327.5px; */
   display: flex;
   position: relative;
   height: 342px;
