@@ -32,4 +32,4 @@ Submit.addEventListener("click", (e) => {
   e.preventDefault();
   getwheather(city.value);
 });
-getwheather("Ahmedabad");
+
