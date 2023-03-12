@@ -22,7 +22,7 @@ const getwheather = (city) => {
 
       wind_speed.innerHTML = "<p>wind speed<p/>" + response.wind_speed;
       wind_degrees.innerHTML = "<p>wind degrees<p/>" + response.wind_degrees;
-      cloud_pct.innerHTML = "<p>cloud %<p/>" + response.cloud_pct;
+      cloud_pct.innerHTML = "<p>cloud<p/>" + response.cloud_pct;
     })
     .catch((err) => console.error(err));
 
